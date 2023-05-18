@@ -1,0 +1,21 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>HimSer</servlet-name>
+		<servlet-class>servlet.Himservlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HimSer</servlet-name>
+		<url-pattern>himser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Next</servlet-name>
+		<servlet-class>servlet.NextPage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Next</servlet-name>
+		<url-pattern>next</url-pattern>
+	</servlet-mapping>
+
+</web-app>
